@@ -1,0 +1,19 @@
+{
+  "name": "weather-app/weather-app",
+  "description": "Weather app with php and vue.js",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MohiuddinAkib",
+      "email": "mohiuddinmostafakamal@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
